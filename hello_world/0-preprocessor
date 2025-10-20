@@ -1,1 +1,2 @@
 #!/bin/bash
+#include <studio.h> export CFILE=main.c
