@@ -1,20 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <temps.h>
+/**
+* main - the principal function
+* if - condition
+* printf - print "n:avec les possibilites"
+* Return: 0
+*/
 int main(void)
 {
 	int n;
-	printf("n: %d \n", n) ;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	if (n < 0)
 {
-	printf("n: is positive %d \n") ;
+	printf("n: is positive\n", n);
 }
 	if (n == 0)
 {
-	printf("n:%d\n", is zero) ;
+	printf("n:is zero\n", n);
 }
 	if (n > 0)
 {
-	printf("n:%d\n", is negative) ;
+	printf("n:is negative\n", n);
 }
 	return (0);
 }
