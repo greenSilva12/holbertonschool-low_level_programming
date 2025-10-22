@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <temps.h>
 /**
 * main - the principal function
 * if - condition
