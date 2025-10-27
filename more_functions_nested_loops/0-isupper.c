@@ -2,14 +2,19 @@
 /**
 * int - initialition
 * if - condition
-* return: 1
+* Return: 1
+* else - return 0
 */
 int _isupper(int c)
 {
     int c;
     if (c >= 'A' && c <= 'Z')
     {
-    printf("c: %d\n", c);
+        return (1);
     }
-    return (1);
+    else
+    {
+        return (0);
+    }
+
 }
