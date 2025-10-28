@@ -9,9 +9,12 @@
  {
     int i;
     int n;
-    for(i = 0 ; n <= 10 ; i++)
+    for (i = 0 ; i <= 10 ; i++)
     {
         _putchar(i);
     }
-    return (0);
+    for (n = 0 ; n <= 14 ; n++)
+    {
+     _putchar(n);  
+    }
 }
