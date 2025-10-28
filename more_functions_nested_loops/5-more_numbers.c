@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints 0 and 14 (10 times)
+ * print_most_numbers - prints 0 and 14
  *
  * Return: void
  */
@@ -9,7 +9,7 @@
  {
     int i;
     int n;
-    for (i = 0 ; i <= 10 ; i++)
+    for (i = 0 ; i <= 14 ; i++)
     {
         _putchar(i);
     }
