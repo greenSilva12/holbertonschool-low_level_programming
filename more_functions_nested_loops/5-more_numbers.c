@@ -11,10 +11,10 @@
     int n;
     for (i = 0 ; i <= 14 ; i++)
     {
-        _putchar("\n");
+        _putchar(i);
     }
     for (n = 0 ; n <= 14 ; n++)
     {
-     _putchar("\n");  
+     _putchar(n);  
     }
 }
