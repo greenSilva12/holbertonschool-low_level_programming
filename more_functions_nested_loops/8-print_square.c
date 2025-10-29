@@ -5,7 +5,7 @@
 * size - e o tamanho do quadro
 * Return: 0
 */
-void print_square(int size);
+void print_square(int size)
 {
 	int i, j;
 
