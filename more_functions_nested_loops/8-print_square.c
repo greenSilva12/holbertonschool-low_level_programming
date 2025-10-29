@@ -4,6 +4,7 @@
 * print_square - faz um quadro
 * @size - e o tamanho do quadro
 * Return: 0
+* size - tamanho
 */
 void print_square(int size)
 {
