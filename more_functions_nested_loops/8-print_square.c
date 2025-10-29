@@ -2,7 +2,7 @@
 
 /**
 * print_square - faz um quadro
-* size - e o tamanho do quadro
+* @size - e o tamanho do quadro
 * Return: 0
 */
 void print_square(int size)
@@ -19,7 +19,7 @@ void print_square(int size)
 	{
 	for (j = 0; j < size; j++)
 
-	_putchar('\\');
+	_putchar('#');
 	_putchar('\n');
 	}
 }
