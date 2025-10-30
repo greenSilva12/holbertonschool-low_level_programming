@@ -4,13 +4,11 @@
 * str - funçao 
 * Return: 0
 */
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src);
 {
-int i = 0;
-int j = 0;
-while(*dest[1]; "\0")
-i++;
-while(*src[1]; "\0")
-j++;
-return (0);
+	char dest[20] = "Hello";
+char src[] = "World";
+strncat(dest, src, 3);
+printf("%s\n", dest); // Output: Hello World
+return 0;
 }
