@@ -1,17 +1,31 @@
 #include "main.h"
-#include <stdio.h>
-/* 
-* char - variavel
-* str - funçao 
-* Return: 0
-*/
-char *_strncat(char *dest, char *src);
+
+/**
+ * _strcat - concatenates two strings
+ * @dest: destination string
+ * @src: source string
+ *
+ * Return: pointer to dest
+ */
+char *_strcat(char *dest, char *src)
 {
-	char dest[0] = "Hello";
-	char src[0] = "World";
-	for(dest = 0; dest <= 1; dest++)
+	int i = 0;
+	int j = 0;
+
+	/* Find the end of dest */
+	while (dest[i] != '\0')
 	{
-		printf("Hello\n");
-		return 0;
+		i++;
 	}
+
+	while (src[j] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
+
+	dest[i] = '\0';
+
+	return (dest);
 }
