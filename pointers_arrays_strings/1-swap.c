@@ -10,5 +10,5 @@
 void swap_int(int *a, int *b)
 {
     *a = 42; *b = 98;
-    printf("a=%d, b=%d\n", a, b);
+    printf("a= %d && b= %d\n", a, b);
 }
