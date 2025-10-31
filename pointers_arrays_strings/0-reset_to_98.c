@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* @n - variavel
+* @reset_to_98 - variavel 
 * @p - pointeur de i
 * Return: 0
 */
