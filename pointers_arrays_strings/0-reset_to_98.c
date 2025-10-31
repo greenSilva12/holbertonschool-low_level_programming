@@ -6,10 +6,8 @@
 * @p - pointeur de i
 * Return: 0 
 */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
-int i = 98;
-int *p = &i;
-printf("%d\n", *p)
-return (0);
+int * ptr_r = &*n;
+printf("modif de valeur = '400' %d\n", * ptr_r);
 }
