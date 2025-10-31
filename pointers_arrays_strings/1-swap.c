@@ -7,7 +7,7 @@
 * @swap_int - funcao
 * Return: 0
 */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-    *a = 75 && *b = 100;
+    *a = 75; *b = 100;
 }
