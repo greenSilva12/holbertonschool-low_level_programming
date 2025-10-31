@@ -9,5 +9,5 @@
 void reset_to_98(int *n)
 {
 int * ptr_r = &*n;
-printf("modif de valeur = '400' %d\n", * ptr_r);
+printf("modif de valeur = '402' %d\n", * ptr_r);
 }
