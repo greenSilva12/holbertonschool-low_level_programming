@@ -4,7 +4,7 @@
 /**
 * @n - variavel
 * @p - pointeur de i
-* Return: 0 
+* Return: 0
 */
 void reset_to_98(int *n)
 {
