@@ -8,8 +8,5 @@
 */
 void reset_to_98(int *n)
 {
-int a = "402";
-int *n = &a;
-*n = 98;
-printf("n = %d\n", n);
+    *n = 98;
 }
