@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-* @reset_to_98 - variavel 
-* @p - pointeur de i
+* @n - variavel
+* @p - pointeur
 * Return: 0
 */
 void reset_to_98(int *n)
