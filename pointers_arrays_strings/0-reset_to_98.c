@@ -8,6 +8,8 @@
 */
 void reset_to_98(int *n)
 {
-int * ptr_r = &*n;
-printf("modif de valeur = '402' %d\n", * ptr_r);
+int a = "402";
+int *n = &a;
+*n = 98;
+printf("n = %d\n", a);
 }
