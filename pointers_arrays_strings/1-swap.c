@@ -9,7 +9,6 @@
 */
 void swap_int(int *a, int *b)
 {
-    a = 98;
-    b = 42;
-    *a = b; *b = a;
+    *a = 42; *b = 98;
+    printf("a=%d, b=%d\n", a, b);
 }
